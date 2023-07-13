@@ -28,7 +28,7 @@ https://www.cherryservers.com/blog/install-prometheus-ubuntu
    30  sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
    31  sudo chown -R prometheus:prometheus /var/lib/prometheus
    32  vi /etc/prometheus/prometheus.yml
-   33  sudo nano /etc/systemd/system/prometheus.service
+   33  sudo nano /etc/systemd/system/prometheus.service---------------------ctrl O enter then ctrl x
    34  vi /etc/systemd/system/prometheus.service
    35  sudo systemctl daemon-reload
    36  sudo systemctl enable prometheus
